@@ -4,7 +4,7 @@ Um **lote de produção** é um conjunto de informações que caracteriza determ
 
 
 
-##### Exemplos de lotes de produção
+#### Exemplos de lotes de produção
 
 | CÓDIGO |  LOTE  |    DATA    |    ORIGEM     | PRODUTO                  |    UN    | QTDADE. |
 | :----: | :----: | :--------: | :-----------: | ------------------------ | :------: | ------: |
@@ -22,7 +22,7 @@ Um **lote de produção** é um conjunto de informações que caracteriza determ
 
 
 
-##### Identificação de lotes de produção
+#### Identificação de lotes de produção
 
 Para facilitar a identificação dos lotes de produção, utiliza-se a informação **"Lote"**, que é composta por duas letra e quatro números, preenchido sequencialmente de AA0001 até ZZ9999, reiniciando após a ultima serie, esta identificação de  **"Lote"** também pode ser informada manualmente respeitando o limite de 6 caracteres.
 
@@ -30,7 +30,7 @@ Como a informação **"Lote"** pode ser compartilhada para mais de um produto, �
 
 
 
-##### Identificação de lotes de produção fracionados
+#### Identificação de lotes de produção fracionados
 
 Um lote de produção pode ser fracionado pelos mais diversos motivos, exemplo:
 
@@ -58,7 +58,7 @@ Um lote de produção pode ser fracionado pelos mais diversos motivos, exemplo:
 
 
 
-##### Rastreabilidade do Código
+#### Rastreabilidade do Código
 
 Um lote de produção, além da informação **"Lote"** e **"Código"**, possui mais duas informações que permite o rastreamento do lote de produção, são elas:
 
