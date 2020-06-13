@@ -31,7 +31,7 @@ If you have familiarized yourself with the configuration scheme and have everyth
 
 - Install OpenVPN service on your computer. To do so, open up a Terminal and execute the following commands:
 
-  ```
+  ```shell
   sudo apt-get update
   sudo apt-get install openvpn
   ```
@@ -47,7 +47,7 @@ If you have familiarized yourself with the configuration scheme and have everyth
 
 - Copy the configuration file to **/etc/openvpn/** and rename if to **client.conf**. To do so, simply open up a Terminal in the location where your configuration file is present and execute this command:
 
-```
+```shell
 cp example.ovpn /etc/openvpn/client.conf
 ```
 
@@ -55,7 +55,7 @@ cp example.ovpn /etc/openvpn/client.conf
 
 - Enable the autostart of the OpenVPN service:
 
-```
+```shell
 sudo systemctl enable openvpn@client.service
 ```
 
@@ -63,7 +63,7 @@ sudo systemctl enable openvpn@client.service
 
 - Start the client:
 
-```
+```shell
 sudo service openvpn@client start
 ```
 
@@ -71,7 +71,7 @@ sudo service openvpn@client start
 
 - At this point all you need to do is wait a few seconds for the connection to complete. To check the status of the connection, use this command:
 
-```
+```shell
 sudo service openvpn@client status
 ```
 
@@ -81,13 +81,13 @@ sudo service openvpn@client status
 
 - An OpenVPN interface should also appear. To check it, execute this command:
 
-```
+```shell
 ifconfig
 ```
 
 The entry for the interface should look something like this:
 
-```
+```shell
 tun_c_ovpn   Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  
              inet addr:10.0.0.6  P-t-P:10.0.0.5  Mask:255.255.255.255
              inet6 addr: fe80::df8c:ec55:e5b8:ab27/64 Scope:Link
